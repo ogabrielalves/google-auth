@@ -1,4 +1,5 @@
 # Google Auth
+Deploy no Vercel - https://google-auth-virid.vercel.app
 
 ## Tecnologias
 - Vite
