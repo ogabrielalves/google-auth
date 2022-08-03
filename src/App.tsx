@@ -1,10 +1,10 @@
-import SigIn from "./pages/SignIn";
+import SignIn from './pages/SignIn';
 import './styles/global.scss';
 
 function App() {
   return (
-    <SigIn />
+    <SignIn />
   )
 }
 
-export default App;
+export default App

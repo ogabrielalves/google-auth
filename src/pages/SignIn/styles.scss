@@ -7,23 +7,86 @@
 
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+}
 
-    span {
-        color: var(--caption);
+.textTop {
+    margin-bottom: 40px;
+    width: 400px;
+
+    h1 {
+        color: var(--primary);
     }
 }
 
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    input {
+        width: 400px;
+        height: 50px;
+
+        border-radius: 5px;
+        border: 1px solid rgb(65, 65, 65);
+
+        background-color: var(--input);
+        margin-top: 8px;
+        padding: 10px;
+        outline: none;     
+        color: var(--text);  
+
+        transition: border .3s;
+
+        &:focus {
+         border: 1px solid var(--primary);
+        }
+    }    
+}
+
 .button {
-    height: 56px;
-    width: 650px;
+    width: 400px;
+    height: 50px;
 
-    color: var(--text);
-    background: none;
-    border-image: linear-gradient(to right, var(--primary), var(--gray)) 1;
+    background-color: var(--button);
+    border: 2px solid var(--button);
+    color: #fff;
 
-    margin-top: 32px;
     font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+
+    transition: background-color .3s;
+
+    &:hover {
+        background-color: transparent;
+        color: var(--button);
+    }
+}
+
+.divOr {
+    display: flex;
+    align-items: center;
+
+    margin: 15px 0px;
+
+    p {
+        padding: 0 13px;
+    }
+}
+
+.buttonAuth {
+    width: 400px;
+    height: 50px;
+
+    background-color: transparent;
+    border: 2px solid var(--button);
+    color: #fff;
+
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
 
     display: flex;
     align-items: center;
@@ -37,21 +100,6 @@
     }
 
     &:hover {
-        background-color: var(--background-light);
-    }
-}
-
-.user {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-    margin-bottom: 64px;
-
-    img {
-        width: 140px;
-        height: 140px;
-        border-radius: 70px;
-        margin-bottom: 16px;
+        background-color: var(--button);
     }
 }
