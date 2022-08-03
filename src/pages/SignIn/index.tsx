@@ -45,7 +45,7 @@ function SignIn() {
 
                     <div className="inputBox">
                         <label htmlFor="">Password</label>
-                        <input type="text" />
+                        <input type="password" />
                     </div>
 
                     <button className="button">LOGIN</button>
